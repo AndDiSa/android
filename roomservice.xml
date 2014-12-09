@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="AndDiSa/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0-ads" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="github" />
-  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
-  <project name="AndDiSa/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0-ads" />
-  <project name="duvall/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="android-5.0" />
-  <project name="AndDiSa/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cm-12.0-ads"/>
+  <remote  name="gh"
+           fetch="https://github.com" />
+
+  <project name="AndDiSa/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="gh" revision="cm-11.0-ads" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="gh" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_asus_grouper" path="device/asus/grouper" remote="gh" />
+  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="gh" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.0" />
+<!--  <project name="duvall/android_hardware_samsung" path="hardware/samsung" remote="github" revision="android-5.0" /> -->
+  <project name="Cyanogenmod/android_hardware_samsung" path="hardware/samsung" remote="gh" />
+  <project name="duvall/android_device_samsung_i9100" path="device/samsung/i9100" remote="gh" revision="android-5.0" />
+  <project name="AndDiSa/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="gh"  revision="cm-12.0-ads"/>
 </manifest>
